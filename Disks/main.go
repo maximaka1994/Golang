@@ -12,6 +12,7 @@ func main() {
 	max = 0
 	var dd d.Disk
 	var dodo ds.Disks
+	fmt.Println("Введите букву для окончания ввода")
 	for i := 0; i > -1; i++ {
 		n, err := fmt.Scan(&a)
 		if err != nil {
